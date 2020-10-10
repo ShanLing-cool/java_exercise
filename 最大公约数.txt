@@ -1,0 +1,17 @@
+public class demo{
+      public  static  void main(String[] args){
+	 java.util.Scanner s = new java.util.Scanner(System.in);
+	 java.util.Scanner r = new java.util.Scanner(System.in);
+     System.out.println("请输入两个数:");
+	 int m=s.nextInt();
+	 int n=r.nextInt();
+	 int q;
+	 while(n!=0){
+		     q=m%n;
+			 m=n;
+			 n=q;
+		 }
+		 System.out.println("最大公约数为"+m);
+		 
+	 }
+}

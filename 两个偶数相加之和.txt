@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class demo{
+      public  static  void main(String[] args){
+       Scanner a = new Scanner(System.in);
+	   int s=a.nextInt();
+	   int sum=0;
+       for(int i=1;i<=s;i++){
+		   if(i%2==0)
+			   sum+=i;
+	   }
+	   System.out.println("数字和为："+sum);
+	}
+}

@@ -1,0 +1,10 @@
+public class demo {
+    public static void main(String[] args) {
+        int[] a = {2, 5, 3, 4, 1, 6,};
+        arr(a);
+    }
+    public static void arr(int []array) {
+        for (int i = 0; i < array.length; i++)
+            System.out.println(array[i]);
+    }
+}

@@ -1,0 +1,11 @@
+import java.util.Random;
+public class demo{
+      public  static  void main(String[] args){
+	     Random r=new Random();
+		 for(int x=1;x<=100;x++){
+		
+			  int num=r.nextInt(100);
+		     System.out.println("number"+num);
+	}
+}
+}

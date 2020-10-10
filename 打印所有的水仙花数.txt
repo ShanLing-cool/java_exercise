@@ -1,0 +1,12 @@
+public class demo{
+      public  static  void main(String[] args){
+       for(int i=100;i<=999;i++)
+	   {
+		   int p=i%10;
+           int n=i/10%10;
+           int m=i/100;
+		   if(i==p*p*p+n*n*n+m*m*m)
+			   System.out.println("水仙花数："+i);
+		   }
+}
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class demo{
+      public  static  void main(String[] args){
+		  Scanner s=new Scanner(System.in);
+		  int m=s.nextInt();
+		  Scanner p=new Scanner(System.in);
+		  int n=p.nextInt();
+		  System.out.println(compare(m,n));
+	  }
+		  public static  boolean  compare(int  a  ,int  b)
+		  {
+			 return a==b;
+		  }
+}
